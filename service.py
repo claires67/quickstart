@@ -1,10 +1,8 @@
-import sys
-import os
+from __future__ import annotations
 import bentoml
 
 with bentoml.importing():
     from transformers import pipeline
-
 
 EXAMPLE_INPUT = "Breaking News: In an astonishing turn of events, the small \
 town of Willow Creek has been taken by storm as local resident Jerry Thompson's cat, \
